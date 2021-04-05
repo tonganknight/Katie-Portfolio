@@ -12,7 +12,7 @@ function Banner() {
        
             <div className="missionstatementflex">
 
-            <div className="missionstatement"><span className="name">Malachi Alusa</span>
+            <div className="missionstatement"><span className="name">Katie Alusa</span>
             <div className="missionstatementtext">I’m a Full Stack Web Developer with a passion for creating sharp, and responsive products.
                 One creed I embrace is your work should always provide more than monetary value. 
                 It should provide a creative and intuitive experience that inspires. 
