@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import About from '../About';
-import Projects from '../Projects';
-import Resume from '../Resume';
+import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Nav from '../Nav';
+import Home from '../Home';
 
 function Renderlive() {
-    const [currentPage, handlepageChange] = useState('About');
+    const [currentPage, handlepageChange] = useState('Home');
 
     const renderPage =() =>{
         switch (currentPage) {
+            case 'Home':
+                return <Home/>;
+            case 'Portfolio':
+                return <Portfolio />;
             case 'About':
                 return <About />;
-            case 'Projects':
-                return <Projects />;
-            case 'Resume':
-                return <Resume />;
             case 'Contact':
                 return <Contact />;
             default: 

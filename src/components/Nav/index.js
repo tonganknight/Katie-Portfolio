@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav({currentPage, handlepageChange}) {
     
-    const tabs =['About', 'Resume', 'Projects', 'Contact']
+    const tabs =[ 'Home', 'Portfolio', 'About',  'Contact']
     return(
         
 
@@ -16,7 +16,7 @@ function Nav({currentPage, handlepageChange}) {
                 <div className="name"><strong>Katie alusa</strong></div>
                 
                     {tabs.map(tab => (
-                        <div key={tab} className=""><a href={'#' + tab.toLowerCase()}
+                        <div key={tab} className="linkedditer"><a href={'#' + tab.toLowerCase()}
                         onClick={() => handlepageChange(tab)}
                         className={ 
                         currentPage === tab ? 'nav-link active' : 'nav-link', "Navtext"
