@@ -10,12 +10,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <Banner>
-      </Banner>
+    <div className=" bigbox container">
+  <div className="row"> 
       <Renderlive/>
-     <Footer/>
     </div>
+</div>
   );
 }
 

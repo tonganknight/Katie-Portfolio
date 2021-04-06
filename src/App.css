@@ -1,5 +1,5 @@
 :root{
-  --primary-color: Whitesmoke;
+  --primary-color: black;
   --secondary-color: #0ff;
   --background: #3e5c76;
   }
@@ -84,12 +84,8 @@
   }
   
   .navtext{ 
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
     font-size: 15px;
-    color: var( --primary-color);
+    color: var( --secondary-color);
     text-decoration: none;
   }
   
@@ -1832,3 +1828,61 @@ width: 100%;
 
 
 }
+
+.navflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 1200px;
+  width: 25%
+
+}
+
+.flextest{
+  display: Flex;
+  flex-direction: row;
+  
+}
+
+.Navtext{
+  color: var(--primary-color)
+}
+
+.test2{
+  color: var(--secondary-color);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.katieicon{
+  height:150px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: solid black;
+  text-align: center;
+}
+
+nav{
+width: 20%;
+}
+
+.container{
+    margin-right: 0; 
+    margin-left: 0;
+    max-width: 100%;
+
+}
+
+.name{
+  font-size: 35px;
+}
+
