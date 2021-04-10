@@ -11,7 +11,7 @@ function Nav({currentPage, handlepageChange}) {
 
             <nav>
 
-                <div className="katieicon">Icon</div>
+                <div className="katieicon"></div>
 
                 <div className="name"><strong>Katie alusa</strong></div>
                 

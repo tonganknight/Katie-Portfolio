@@ -53,11 +53,12 @@
 }
 
 .katieicon{
+  background-image: url("../src/assets/Images/300\ pixels\ yellow\ logo.png");
+  background-size: cover;
   height:150px;
   width: 150px;
   margin-bottom: 50px;
   margin-top: 50px;
-  border: solid black;
   text-align: center;
 }
 
