@@ -35,33 +35,13 @@ function Contact() {
       
       console.log(formState);
 return(
-    <section>
-    <div className="contactflex"> 
-      <h1 className="contacttitle">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-      <div className="contactcenter">
-        <label className="contactcenter texttoleft" htmlFor="name">Name:</label>
-        <input className="contactcenter" type="text" defaultValue={name} onBlur={handleChange} name="name" />
-    </div>
-    <div className="contactcenter">
-     <label className="contactcenter texttoleft" htmlFor="email">Email address:</label>
-     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
-    </div>
-    <div className="contactcenter">
-    <label className="contactcenter  texttoleft" htmlFor="message">Message:</label>
-    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-    </div>
-    {errorMessage && (
-  <div>
-    <p className="error-text">{errorMessage}</p>
+  <div className="contactback">
+  <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
+  <div className="contactText">Email: katie@alusadesign.com</div>
+  <div className="contactText">Phone: 801-822-9690</div>
+  <div className="contactText">Or message me through the social media outlets below!</div>
+
   </div>
-    )}
-    <div className="contactcenter">
-    <button className="contactcenter contactbtn" type="submit">Submit</button>
-    </div>
-      </form>
-      </div>
-    </section>
 )
 }
 export default Contact;

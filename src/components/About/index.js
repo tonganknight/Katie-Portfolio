@@ -9,7 +9,7 @@ function About() {
         <div className=" aboutflex">
 
     <div className="aboutmecontentflex">
-        <div className="mypic">Place Holder about me Pic</div>
+        <div className="mypic"></div>
 
         <div className="aboutmetextflex">
           A little bit about me. I was born in Redwood City California. Over the course of my life.
