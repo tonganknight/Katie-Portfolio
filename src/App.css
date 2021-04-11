@@ -179,6 +179,9 @@ width: 20%;
   
   .hobbielisttext{
     margin: 20px;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-left: 475px;
   }
   
   /*Flexbox for resume Section */
@@ -588,6 +591,7 @@ width: 20%;
 .hobbielisttext{
   margin: 20px;
   font-size: 40px;
+  margin-bottom: 100px;
   margin-left: 475px;
 }
 
@@ -710,13 +714,14 @@ width: 100%;
   flex-direction: column;
   justify-content: none;
   width: 100%;
-  height: 990px;
+  height: 1000px;
   align-items: center;
   color: var(--primary-color);
   text-align: left;
   font-size: 25px;
   overflow-y: scroll;
   margin-right: 50px;
+  margin-bottom: 100px;
 }
 
 .portfolioTitle{
