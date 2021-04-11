@@ -13,6 +13,7 @@ function App() {
     <div className=" bigbox ">
   <div className="row"> 
       <Renderlive/>
+      <Footer/>
     </div>
 </div>
   );

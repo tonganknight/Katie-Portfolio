@@ -574,7 +574,7 @@ width: 20%;
   height: 300px;
   width: 300px;
   margin-top: 50px;
-  margin-left: 550px;
+  margin-left: 600px;
 }
 /* text in the about me section*/
 .aboutmetextflex{
@@ -869,5 +869,12 @@ nav{
   margin-top: 20px;
 }
 
+.footerflex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
 }
 
