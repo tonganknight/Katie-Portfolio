@@ -735,10 +735,18 @@ margin-top: 39px;
   border: solid black;
 }
 
+.windowbottom{
+  margin-top: 10px;
+  margin-bottom: 175px;
+  height: 400px;
+  width: 400px;
+  border: solid black;
+}
+
 .homewindowtop{
   margin-top: 75px;
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 400px;
   border: solid black;
 }
 
@@ -750,8 +758,8 @@ margin-top: 39px;
 }
 
 .homewindow{
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 400px;
   border: solid black;
 }
 
