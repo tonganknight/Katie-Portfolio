@@ -3,42 +3,41 @@ import React, {useEffect} from 'react';
 
 function About() {
 
+    
 
     return (
       
-        <div className=" aboutflex">
+       
+        <div className="portback">
 
-    <div className="aboutmecontentflex">
+        <div className="Projectw1">
+
+
         <div className="mypic"></div>
 
         <div className="aboutmetextflex">
-          A little bit about me. I was born in Redwood City California. Over the course of my life.
-           I have had the opportunity to work around the country. I am a passionate individual that loves life. 
-           I have a strong work ethic, and emphasize an out of the box style approach to problem solving. I enjoy being creative.
-            I bring a vast and diverse set of experience and expertise. For the past 5 years, I have been in supervisor and management positions. 
-            I am a great team player, and love to collaborate with others I also enjoy tackling projects solo. As the above statement says,
-             I am looking for a reputable company that shares my desire to strive for excellence.  
+        <div>Hello,</div> <div className="break"> My name is Katie Alusa and I am a Graphic Designer. 
+        I currently work at Xtreme Graphix where I specialize in creating designs for screen printing, vinyl, business cards, promotional items, and (my favorite) designing logos for various companies.
+        I am married to the wonderful Malachi Alusa and we currently live in  sunny St George Utah.</div>
+        <div className="break">As a Graphic Designer I have had opportunities to try my hand at many different mediums.
+        While earning my Bachelors degree I started out as a freelance designer and have been hired to help with a variety of projects. 
+        Whether it was designing wedding invitations, Illustrating a children’s book, or designing a logo, I loved them all. My favorite freelance job was branding a new company with a logo, a custom typeface,  a branding guide, and about 20 custom t-shirt designs. 
+       </div> <div className="break">I am excited to expand my knowledge and am looking for a reputable company that can provide experience, growth, and the opportunity to progress  in the field.</div>
         </div>
 
-        <ul className="hobbielisttext"><strong>Somethings that I enjoy</strong>
-                <li> I have a passion for music.
-                     I play The Ukulele, and The Guitar.</li>
+        <ul className="hobbielisttext"><strong>Some things that I enjoy</strong>
+                <li>I love Disney Movies, and Country music</li>
 
-              <li>I love spending time with family and friends</li>
+              <li>I consider my self a connoisseur of Popcorn </li>
 
-              <li>I enjoy visiting Museums and Landmarks</li>
+              <li>I am an avid reader</li>
 
-              <li>I am a huge fan of Sushi</li>
-              
-              <li>I also enjoy exploring, and learning new technologies</li>
-
+              <li>Shark Movies are the best!</li>
         </ul>
 
-
     </div>
-       
-        </div>
-    
+</div>
+   
     )
 
 }

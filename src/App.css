@@ -161,8 +161,9 @@ width: 20%;
     background-color: var(--background);
      /*background-position: 90%;*/
     height: 100%;
-    width: 100%;
-    color: var(--primary-color)
+    width: 990px;
+    color: var(--primary-color);
+    overflow-y: scroll;
   }
   
   /* governs my pic in the about me section*/
@@ -170,9 +171,9 @@ width: 20%;
   /* text in the about me section*/
   .aboutmetextflex{
     color: var(--primary-color);
-    text-align: center;
+    text-align: left;
     font-size: 12px;
-    margin: 20px;
+    margin: 100px;
   
   }
   
@@ -560,9 +561,10 @@ width: 20%;
   align-items: center;
   background-color: var(--background);
    /*background-position: 90%;*/
-  height: 100%;
+   width: 990px;
   width: 100%;
-  color: var(--primary-color)
+  color: var(--primary-color);
+  overflow-y: scroll;
 }
 
 /* governs my pic in the about me section*/
@@ -572,19 +574,21 @@ width: 20%;
   height: 300px;
   width: 300px;
   margin-top: 50px;
+  margin-left: 550px;
 }
 /* text in the about me section*/
 .aboutmetextflex{
   color: var(--primary-color);
-  text-align: center;
+  text-align: left;
   font-size: 25px;
-  margin: 20px;
+  margin: 100px;
 
 }
 
 .hobbielisttext{
   margin: 20px;
   font-size: 40px;
+  margin-left: 475px;
 }
 
 /*Flexbox for resume Section */
@@ -845,18 +849,24 @@ margin-top: 39px;
 }
 
 .aboutflex{
-  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
 }
+
 nav{
   height: 100%;
 }
 
-contactback{
+.contactback{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--background);
 
+}
+
+.break{
+  margin-top: 20px;
 }
 
 }

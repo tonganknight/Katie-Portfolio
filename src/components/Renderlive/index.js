@@ -27,7 +27,7 @@ function Renderlive() {
 
             <div className="  header col-sm">
            <Nav currentPage={currentPage} handlepageChange={handlepageChange} />
-            <div className="col-sm">{renderPage(currentPage)}</div>
+            <div className=" col-sm">{renderPage(currentPage)}</div>
             
             </div>
     )
