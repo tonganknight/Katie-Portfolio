@@ -13,429 +13,7 @@
   overflow-y: hidden;
 }
 
-
-.navflex{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  height: 1200px;
-  width: 25%
-
-}
-
-.flextest{
-  display: Flex;
-  flex-direction: row;
-  
-}
-
-.Navtext{
-  color: var(--primary-color) !important;
-  text-decoration: none !important;
-}
-
-.Navtext:hover{
-  color: var(--secondary-color) !important;
-  text-decoration: none !important;
-}
-
-
-
-.header{
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  margin: 0;  
-}
-
-.katieicon{
-  background-image: url("../src/assets/Images/300\ pixels\ yellow\ logo.png");
-  background-size: cover;
-  height:150px;
-  width: 150px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  text-align: center;
-}
-
-nav{
-width: 20%;
-}
-
-.bigbox{
-    margin-right: 0; 
-    margin-left: 150px;
-    max-width: 100%;
-
-}
-
-.name{
-  font-size: 35px;
-  color: var(--primary-color)
-}
-
-  /* Controllers the vid and text layout */
-  .missionbannerflex{
-    display: flex;
-    justify-content: center;
-   
-  }
-  
  
-  /*Controls the text and name layout*/
-  .missionstatementflex{
-    display: flex;
-    opacity: 100%;
-    color: white;
-    z-index: 1;
-  }
-  /* Controls the way the name appears*/
-  .name{
-    font-weight: bold;
-    font-size: 20px;
-  }
-  /* Controls the text on the vid */
-  .missionstatement{
-    display: flex;
-    height: 150px; /* height of vid */
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 300px;
-    margin-bottom: 20px;
-    font-size: 9px;
-  }
-  /* Controls the navbar  */
-  .navbar{ 
-    width: 100%;
-    position: fixed;
-    z-index: 1; /* makes the nav bar  not overlap 2 makes it overlap*/
-    color: var(--primary-color);
-    display: flex;
-  }
-  
-  .flexnav{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    color: var(--primary-color);
-    font-size: 12px;
-    
-  }
-  
-  .aboutmeflex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 2px;
-  }
-  
-  .navtext{ 
-    font-size: 15px;
-    color: var( --secondary-color);
-    text-decoration: none;
-  }
-  
-  .navtextflex{
-    display: flex;
-    flex-direction: row;
-    color: var(--primary-color);
-  }
-  
-  .resume{ 
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    color: var( --primary-color);
-  }
-  /*flex for aboutme background */
-  
-  .aboutmecontentflex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--background);
-     /*background-position: 90%;*/
-    height: 100%;
-    width: 990px;
-    color: var(--primary-color);
-    overflow-y: scroll;
-  }
-  
-  /* governs my pic in the about me section*/
-
-  /* text in the about me section*/
-  .aboutmetextflex{
-    color: var(--primary-color);
-    text-align: left;
-    font-size: 12px;
-    margin: 100px;
-  
-  }
-  
-  .hobbielisttext{
-    margin: 20px;
-    font-size: 40px;
-    margin-bottom: 100px;
-    margin-left: 475px;
-  }
-  
-  /*Flexbox for resume Section */
-  .resumeSection{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--background);
-    color: var(--primary-color);
-    height: 100%;
-  
-    
-  }
-  /* main top text in resume section */
-  .resumeTitle{
-    margin: 15px;
-  }
-  
-  /* the line that lets you download the resume*/
-  .PDFoffer{
-    font-size: 12px;
-    margin-bottom: 20px;
-    margin-left: 15px;
-  }
-  
-  /* this controls the position of the icons*/
-  .iconflex{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  /* controls the list items on the resume section*/
-  li{
-    margin-left: 15px;
-    font-size: 15px;
-  /*controls the main List names margin*/
-  }
-  ul{
-    margin-left: 15px;
-  }
-  
-  .databaseicon{
-    background-image: url("https://cdn1.iconfinder.com/data/icons/ColoBrush_Pack/256/database.png");
-    background-size: cover;
-    height: 25px;
-    width: 25px;
-    margin-left: 30px;
-    margin-top: 20px
-  }
-  
-  .databasetext{
-    margin-left: 30px;
-    
-  
-  }
-  
-  .backend{
-    margin-top: 20px;
-  }
-  
-  .contactflex{
-    display:flex; 
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--background);
-    height: 100%;
-    width: 100%;
-    color: var(--primary-color);
-    
-  }
-  
-  .contactcenter{
-  
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  
-  }
-  
-  /* this gives margins to most of the text elements in the resume section */
-  .texttoleft{
-  width: 100%;
-  }
-  
-  .contacttitle{
-    text-align: center;
-    margin-bottom: 20px;
-  
-  }
-
-  .contactTitle{
-    margin-top: 25px;
-    background-color: var(--background);
-    color: var(--primary-color);
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 250px;
-  }
-  
-  .contactText{
-    background-color: var(--background);
-    color: var(--primary-color);
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 15px;;
-  }
-  
-  
-  .contactbtn{
-    margin-bottom: 20px;
-    background-color: silver;
-  }
-  
-  .portfolioflex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--background);
-    width: 100%;
-    height: 100%;
- 
-  }
-  
-  
-  
-  .projecttext{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 15px;
-    color: var(--primary-color);
-    text-align: center;
-  }
-  
-  
-  .projectview1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-color);
-    width: 85%;
-    height: 100%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 25px;
-    background: rgba(255,255,255, 0.6);
-    overflow-y: auto;
-  }
-  
-  .leftoverstitle{
-    margin-left: 200px;
-    margin-top: 25px;
-  }
-  
-  .projecttitle{
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 15px;
-    margin-top: 25px;
-    text-align: center;
-  }
-  
-  .repolink{
-    text-align: center;
-    font-size: 13px;
-  }
-  
-  .projectwindow1{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/leftovers.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow2{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/Taskmaster-pro.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow3{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    background-image: url("./assets/Images/work-scheduler.jpg");
-    background-size: cover;
-    opacity: 1.0;
-  }
-  
-  .projectwindow4{
-    display: flex;
-    height: 150px;
-    width: 200px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    background-image: url("./assets/Images/run-buddy.JPG");
-    background-size: cover;
-    opacity: 1.0;
-  }
-
-  .footerflex{
-    background-color:  var(--background);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 350px;
-    text-align: center;
-
-  }
-
-  .facebookicon{
-    background-image: url("https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_facebook-256.png");
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    
-}
-
-.linkedinicon{
-    background-image: url("https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png");
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-.githubicon{
-    background-image: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-256.png");
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
 
 .findme{
   color: var(--primary-color);
@@ -445,6 +23,36 @@ width: 20%;
 
 @media only screen and (min-width: 1200px) {  
 
+  .navflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1200px;
+    width: 25%
+  
+  }
+  
+  .flextest{
+    display: Flex;
+    flex-direction: row;
+    
+  }
+
+  .Navtext{
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+  }
+  
+.header{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  margin: 0;  
+}
 
   b{
     background-color: var(--background);
@@ -458,6 +66,27 @@ width: 20%;
   .navbar:hover{
     text-decoration: none;
     
+  }
+
+  .katieicon{
+    background-image: url("../src/assets/Images/300\ pixels\ yellow\ logo.png");
+    background-size: cover;
+    height:150px;
+    width: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  nav{
+    width: 20%;
+    }
+
+  .bigbox{
+    margin-right: 0; 
+    margin-left: 150px;
+    max-width: 100%;
+  
   }
 
 
@@ -484,11 +113,13 @@ width: 20%;
   z-index: 1;
   
 }
+
 /* Controls the way the name appears*/
 .name{
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 20px;
+  color: var(--primary-color);
 }
 /* Controls the text on the vid */
 .missionstatement{
@@ -512,7 +143,15 @@ width: 20%;
   justify-content: none  ;
 }
 
-
+ /* controls the list items on the resume section*/
+ li{
+  margin-left: 15px;
+  font-size: 15px;
+/*controls the main List names margin*/
+}
+ul{
+  margin-left: 15px;
+}
 
 .flexnav{
   display:flex;
@@ -540,8 +179,8 @@ width: 20%;
   text-decoration: none;
 }
 
-.navtext:hover{
-  color: var(--secondary-color);
+.Navtext:hover{
+  color: var(--secondary-color) !important;
 }
 
 .navtextflex{
@@ -568,6 +207,15 @@ width: 20%;
   width: 100%;
   color: var(--primary-color);
   overflow-y: scroll;
+}
+
+.contactText{
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;;
 }
 
 /* governs my pic in the about me section*/
@@ -641,6 +289,8 @@ ul{
   background-size: cover;
   height: 75px;
   width: 75px;
+  margin-left: 30px;
+  margin-top: 20px
 }
 
 .databasetext{
@@ -678,14 +328,18 @@ text-align: center;
 width: 100%;
 }
 
-.contacttitle{
+.contactTitle{
+  margin-top: 25px;
+  background-color: var(--background);
+  color: var(--primary-color);
+  font-size: 35px;
+  font-weight: bold;
   text-align: center;
+  margin-top: 250px;
   margin-bottom: 20px;
-
 }
 
-
-.contactbtn{
+.contactbtn{ /* not being used, older model. Form button */
   margin-bottom: 20px;
   background-color: silver;
 }
@@ -708,6 +362,18 @@ width: 100%;
   overflow-y: scroll;
 
 }
+
+.projecttext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
 
 
 .Projectw1{
@@ -889,5 +555,12 @@ nav{
   height: 500px;
   width: 100%;
 }
+
+
+.findme{
+  color: var(--primary-color);
+  text-align: center;
+}
+
 }
 
