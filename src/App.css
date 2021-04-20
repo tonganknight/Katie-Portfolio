@@ -396,16 +396,16 @@ margin-top: 39px;
 
 .windowtop{
   margin-top: 10px;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: solid black;
 }
 
 .windowbottom{
   margin-top: 10px;
   margin-bottom: 175px;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: solid black;
 }
 
