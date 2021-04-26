@@ -1,6 +1,7 @@
 :root{
   --primary-color: #9aa8ac;
   --secondary-color: #ffd54c;
+  --tertiary-color:  #fff3cc/*#ffedb3 */;
   --background: white;
   }
 
@@ -437,10 +438,7 @@ margin-top: 39px;
   
 }
 
-.leftoverstitle{
-  margin-left: 200px;
-  margin-top: 25px;
-}
+
 
 .projecttitle{
   color: black;
@@ -454,47 +452,6 @@ margin-top: 39px;
 .repolink{
   text-align: center;
   font-size: 20px;
-}
-
-.projectwindow1{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/leftovers.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow2{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/Taskmaster-pro.JPG");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow3{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  background-image: url("./assets/Images/work-scheduler.jpg");
-  background-size: cover;
-  opacity: 1.0;
-}
-
-.projectwindow4{
-  display: flex;
-  height: 300px;
-  width: 400px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-image: url("./assets/Images/run-buddy.JPG");
-  background-size: cover;
-  opacity: 1.0;
 }
 
 .facebookicon{
@@ -560,6 +517,95 @@ nav{
 .findme{
   color: var(--primary-color);
   text-align: center;
+}
+
+/* Modal*/
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+  visibility: hidden;
+}
+
+.modalContainer {
+	background: #111111;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+  color: var(--primary-color)
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+  color: white
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+.modalbutton{
+  background-color: var(--secondary-color) !important;
+  color: #111111 !important;
+  border: none !important;
+  margin-left: 330px;
+  margin-bottom: 15px;
+}
+
+.modalbutton:hover{
+  box-shadow: 0px 0px 5px 5px var( --tertiary-color)
+}
+
+/* controls the base of the modals color */
+.modal-content{
+  background-color: inherit !important;
+}
+
+.modal-pic{
+  background-size: cover;
+  height: 600px;
+  width: 700px;
+}
+
+.modal-content{
+  width: 90% !important;
+
+}
+
+.homeWindow1picflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:50px;
+  margin-bottom: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.homeWindow1pic{
+
+  background-image:  url("./assets/Images/large/large-logo.png");
+  background-size: cover;
+  height: 600px;
+  width: 600px;
 }
 
 }
