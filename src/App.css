@@ -396,14 +396,14 @@ margin-top: 39px;
 }
 
 .windowtop{
-  margin-top: 10px;
+
   height: 350px;
   width: 350px;
   border: solid black;
 }
 
 .windowbottom{
-  margin-top: 10px;
+
   margin-bottom: 175px;
   height: 350px;
   width: 350px;
@@ -604,8 +604,8 @@ button {
 
   background-image:  url("./assets/Images/large/large-logo.png");
   background-size: cover;
-  height: 600px;
-  width: 600px;
+  height: 650px;
+  width: 650px;
 }
 
 }
