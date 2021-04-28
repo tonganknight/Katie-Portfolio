@@ -48,7 +48,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-dark" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className="homeWindowModalPic1"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose1}>
                     Close

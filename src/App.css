@@ -429,6 +429,13 @@ margin-top: 39px;
 
 }
 
+.homeWindowModalPic1{
+  background-image:  url("./assets/Images/large/Alisa\ Wedding\ Invite\ 650\ px.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
 .window{
   height: 250px;
   width: 250px;
