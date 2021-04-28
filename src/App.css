@@ -395,12 +395,20 @@ width: 100%;
 margin-top: 39px;
 }
 
-.windowtop{
+.windowtop{ /* placeholder */
 
   height: 350px;
   width: 350px;
   border: solid black;
 }
+
+.windowtop1{ /* placeholder */
+  background-image: url("./assets/Images/Medium/Alisa\ Wedding\ Invite\ 350\ px.jpg");
+  height: 350px;
+  width: 350px;
+
+}
+
 
 .windowbottom{
 
@@ -410,13 +418,16 @@ margin-top: 39px;
   border: solid black;
 }
 
-.homewindowtop{
+.homewindowtop{ /* place holder */
   margin-top: 75px;
   height: 400px;
   width: 400px;
   border: solid black;
 }
 
+.homewindowtop1{
+
+}
 
 .window{
   height: 250px;

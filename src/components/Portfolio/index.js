@@ -10,7 +10,7 @@ function Portfolio() {
 
             <div className="flexrow"> 
             
-                <div className="windowtop">window1</div>
+                <div className="windowtop1">window1</div>
                 <div className="windowtop">window2</div>
                 <div className="windowtop">window3</div>
                 <div className="windowtop">window4</div>
