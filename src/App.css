@@ -221,7 +221,7 @@ ul{
 
 /* governs my pic in the about me section*/
 .mypic{
-  background-image: url("./assets/Images/Website\ Photo.png");
+  background-image: url("./assets/Images/Small/Website\ Photo-min.png");
   background-size: cover;
   height: 300px;
   width: 300px;
@@ -430,7 +430,7 @@ margin-top: 39px;
 }
 
 .homeWindowModalPic1{
-  background-image:  url("./assets/Images/large/Alisa\ Wedding\ Invite\ 650\ px.jpg");
+  background-image:  url("./assets/Images/large/Alisa\ Wedding\ Invite\ 650\ px-min.jpg");
   background-size: cover;
   height: 650px;
   width: 650px;
