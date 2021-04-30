@@ -1,7 +1,7 @@
 :root{
   --primary-color: #9aa8ac;
   --secondary-color: #ffd54c;
-  --tertiary-color:  #fff3cc/*#ffedb3 */;
+  --tertiary-color:   #f5ca40/*#fff3cc *//*#ffedb3 */;
   --background: white;
   }
 
@@ -582,7 +582,7 @@ button {
 
 .modalbutton{
   background-color: var(--secondary-color) !important;
-  color: #111111 !important;
+  color: white !important;
   border: none !important;
   margin-left: 330px;
   margin-bottom: 15px;

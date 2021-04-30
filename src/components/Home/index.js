@@ -46,7 +46,7 @@ return (
                   show={show1}
                   onHide={handleClose1}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindowModalPic1"></div>
                  </div>
@@ -62,7 +62,7 @@ return (
                   show={show2}
                   onHide={handleClose2}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindow1pic"></div>
                  </div>
@@ -78,7 +78,7 @@ return (
                   show={show3}
                   onHide={handleClose3}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindow1pic"></div>
                  </div>
@@ -96,7 +96,7 @@ return (
                   show={show4}
                   onHide={handleClose4}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindow1pic"></div>
                  </div>
@@ -112,7 +112,7 @@ return (
                   show={show5}
                   onHide={handleClose5}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindow1pic"></div>
                  </div>
@@ -128,7 +128,7 @@ return (
                   show={show6}
                   onHide={handleClose6}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-dark" size="lg">
+                  <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
                  <div className="homeWindow1pic"></div>
                  </div>
