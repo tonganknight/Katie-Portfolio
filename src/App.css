@@ -70,13 +70,12 @@
   }
 
   .katieicon{
-    background-image: url("../src/assets/Images/300\ pixels\ yellow\ logo.png");
+    background-image: url("../src/assets/Images/300\ px\ Logo.png");
     background-size: cover;
-    height:150px;
-    width: 150px;
+    height:300px;
+    width: 300px;
     margin-bottom: 50px;
     margin-top: 50px;
-    text-align: center;
   }
 
   nav{
@@ -395,18 +394,252 @@ width: 100%;
 margin-top: 39px;
 }
 
-.windowtop{ /* placeholder */
+.PortWindowBottomPlaceHolder{ /* placeholder */
+  height: 350px;
+  width: 350px;
+  border: solid black;
+  margin-bottom: 100px;
+}
 
+.windowtop1{ /* placeholder */
+  margin-top: 75px;
   height: 350px;
   width: 350px;
   border: solid black;
 }
 
-.windowtop1{ /* placeholder */
-  background-image: url("./assets/Images/Medium/Alisa\ Wedding\ Invite\ 350\ px.jpg");
+/* top row of Portfolio*/
+.portWindowTop1{ 
+  margin-top: 75px;
   height: 350px;
   width: 350px;
+  background-image: url("./assets/Images/Small/Magazine\ 350\ px-min.jpg");
+}
 
+.portWindowTop2{ 
+  margin-top: 75px;
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Purple\ Otter\ 350-min.jpg");
+}
+
+.portWindowTop3{ 
+  margin-top: 75px;
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Art\ Show\ Invite\ 350-min.jpg");
+}
+
+.portWindowTop4{ 
+  margin-top: 75px;
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Playing\ Cards\ 350\ px-min.jpg");
+}
+
+.portWindow4{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Wrangler\ Tote\ 350\ px-min.jpg");
+}
+
+.portWindow5{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Hershey\ mug\ 350-min.jpg");
+}
+
+.portWindow6{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/wrx\ mockup\ 350-min.jpg");
+}
+
+.portWindow7{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/My\ Wedding\ Invite\ Mockup\ 350-min.jpg");
+}
+
+.portWindow8{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Scar\ Cup\ 650\ px-min.jpg");
+  background-size: cover;
+}
+
+.portWindow9{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Savanna\ wedding\ Invite\ Mockup\ 350-min.jpg");
+  background-size: cover;
+}
+
+.portWindow10{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Dont\ fly\ low\ 350\ px-min.jpg");
+  background-size: cover;
+}
+
+.portWindow11{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Nutcracker\ Mug\ 350\ px-min.jpg");
+  background-size: cover;
+}
+
+.portWindow12{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Paper\ Cut\ Deer\ 350-min.jpg");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.portWindow13{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Master\ of\ the\ elements\ 350.jpg");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.portWindow14{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Master\ of\ the\ elements\ 350.jpg");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.portWindow15{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Sheep\ 350-min.jpg");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.portWindow16{
+  height: 350px;
+  width: 350px;
+  background-image: url("./assets/Images/Small/Girlstyle\ 350-min.jpg");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+/*Modal for Portfolio*/
+.portModal1{
+  background-image: url("./assets/Images/large/Magazine\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal2{
+  background-image: url("./assets/Images/large/Purple\ Otter\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal3{
+  background-image: url("./assets/Images/large/Art\ Show\ Invite\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal4{
+  background-image: url("./assets/Images/large/Playing\ Cards\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal5{
+  background-image: url("./assets/Images/large/Wrangler\ Tote\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal6{
+  background-image: url("./assets/Images/large/Hershey\ mug\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal7{
+  background-image: url("./assets/Images/large/wrx\ mockup\ 650\ copy-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal8{
+  background-image: url("./assets/Images/large/My\ Wedding\ Invite\ Mockup\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal9{
+  background-image: url("./assets/Images/large/Scar\ Cup\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal10{
+  background-image: url("./assets/Images/large/Savanna\ wedding\ Invite\ Mockup\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal11{
+  background-image: url("./assets/Images/large/Don\'t\ Fly\ Low\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal12{
+  background-image: url("./assets/Images/large/Nutcracker\ Mug\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal13{
+  background-image: url("./assets/Images/large/Paper\ Cut\ Deer\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal14{
+  background-image: url("./assets/Images/large/Master\ of\ the\ elements\ 650.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal15{
+  background-image: url("./assets/Images/large/Sheep\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.portModal16{
+  background-image: url("./assets/Images/large/Girlstyle\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
 }
 
 
@@ -443,7 +676,8 @@ margin-top: 39px;
   margin-top: 75px;
   height: 400px;
   width: 400px;
-  background-image: url("./assets/Images/Medium/Promyacin\ 400-min.jpg");
+  background-image: url("./assets/Images/Medium/Walter\ Mockup\ 400-min.jpg");
+  background-size: cover;
 }
 
 .homewindowbottom1{
@@ -461,7 +695,8 @@ margin-top: 39px;
 .homewindowbottom3{
   height: 400px;
   width: 400px;
-  background-image: url("./assets/Images/Medium/Alisa\ Invite\ 400-min.jpg");
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Promyacin\ 400-min.jpg");
 }
 
 
@@ -481,7 +716,7 @@ margin-top: 39px;
 }
 
 .homeWindowModalPic3{
-  background-image:  url("./assets/Images/large/Promyacin\ 650-min.jpg");
+  background-image:  url("./assets/Images/large/Walter\ Spread\ 650-min.jpg");
   background-size: cover;
   height: 650px;
   width: 650px;
@@ -496,6 +731,13 @@ margin-top: 39px;
 
 .homewindowModalBottompic2{
   background-image:  url("./assets/Images/large/Alisa\ Invite\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.homewindowModalBottompic3{
+  background-image:  url("./assets/Images/large/Promyacin\ 650-min.jpg");
   background-size: cover;
   height: 650px;
   width: 650px;

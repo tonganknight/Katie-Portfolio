@@ -13,8 +13,6 @@ function Nav({currentPage, handlepageChange}) {
 
                 <div className="katieicon"></div>
 
-                <div className="name">Katie Alusa</div>
-                
                     {tabs.map(tab => (
                         <div key={tab} className="linkedditer"><a href={'#' + tab.toLowerCase()}
                         onClick={() => handlepageChange(tab)}

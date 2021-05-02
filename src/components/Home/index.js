@@ -7,9 +7,9 @@ function Home() {
 /*handel Modals */
 
 /*first Modal*/
-  const [show1, setShow1] = useState(false);
-  const handleClose1 = () => setShow1(false);
-  const handleShow1 = () => setShow1(true);
+const [show1, setShow1] = useState(false);
+const handleClose1 = () => setShow1(false);
+const handleShow1 = () => setShow1(true);
 /*second Modal*/
 const [show2, setShow2] = useState(false);
 const handleClose2 = () => setShow2(false);
@@ -122,7 +122,7 @@ return (
                   </div>
                 </Modal>
 
-                <div className="" onClick={handleShow6}>window3</div>
+                <div className="homewindowbottom3" onClick={handleShow6}></div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show6}
@@ -130,7 +130,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className=""></div>
+                 <div className="homewindowModalBottompic3"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose6}>
                     Close
