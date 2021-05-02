@@ -1,7 +1,8 @@
 :root{
   --primary-color: #9aa8ac;
   --secondary-color: #ffd54c;
-  --tertiary-color:   #f5ca40/*#fff3cc *//*#ffedb3 */;
+  --tertiary-color: #f5ca40/*#fff3cc *//*#ffedb3 */;
+  --icon-color: #97daf8;
   --background: white;
   }
 
@@ -81,6 +82,90 @@
   nav{
     width: 20%;
     }
+
+.iconflex{
+  margin-top: 290px;
+  margin-right: 70px;
+}
+
+  .iconPhone{ /*placeholder*/
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    margin-right: 10px;
+  }
+
+  .iconFacebook{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-image: url("./assets/Images/Small/facebook\ icon-min.png");
+    background-size: cover;
+  }
+
+.iconFacebook:hover{
+  background-color: var(--icon-color);
+  border-radius: 99%
+  }
+
+  .iconInstagram{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-image: url("./assets/Images/Small/instagram\ icon-min.png");
+    background-size: cover;
+  }
+
+  
+.iconInstagram:hover{
+  background-color: var(--icon-color);
+  border-radius: 100%
+  }
+
+  .iconLink{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-image: url("./assets/Images/Small/link\ icon-min.png");
+    background-size: cover;
+  }
+
+  
+.iconLink:hover{
+  background-color: var(--icon-color);
+  border-radius: 100%
+  }
+
+  .iconBehance{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-image: url("./assets/Images/Small/behance\ icon-min.png");
+    background-size: cover;
+  }
+
+  
+.iconBehance:hover{
+  background-color: var(--icon-color);
+  border-radius: 100%
+  }
+ 
+ 
+ 
+
+  .iconPhone3{
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    margin-right: 10px;
+  }
+
+  .iconPhone4{
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    margin-right: 10px;
+  }
 
   .bigbox{
     margin-right: 0; 
@@ -896,7 +981,8 @@ button {
 }
 
 .modalbutton:hover{
-  box-shadow: 0px 0px 5px 5px var( --tertiary-color)
+  box-shadow: 0px 0px 5px 5px var(--icon-color);
+
 }
 
 /* controls the base of the modals color */
