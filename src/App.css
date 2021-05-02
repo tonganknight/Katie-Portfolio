@@ -426,11 +426,76 @@ margin-top: 39px;
 }
 
 .homewindowtop1{
-
+  margin-top: 75px;
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Wolf\ Hat\ Final\ 400-min.jpg");
 }
 
+.homewindowtop2{
+  margin-top: 75px;
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Just\ Peachy\ 400-min.jpg");
+}
+
+.homewindowtop3{
+  margin-top: 75px;
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Promyacin\ 400-min.jpg");
+}
+
+.homewindowbottom1{
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Grey\ Trust\ 400-min.jpg");
+}
+
+.homewindowbottom2{
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Alisa\ Invite\ 400-min.jpg");
+}
+
+.homewindowbottom3{
+  height: 400px;
+  width: 400px;
+  background-image: url("./assets/Images/Medium/Alisa\ Invite\ 400-min.jpg");
+}
+
+
+
 .homeWindowModalPic1{
-  background-image:  url("./assets/Images/large/Alisa\ Wedding\ Invite\ 650\ px-min.jpg");
+  background-image:  url("./assets/Images/large/Wolf\ Hat\ Final\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.homeWindowModalPic2{
+  background-image:  url("./assets/Images/large/Just\ Peachy\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.homeWindowModalPic3{
+  background-image:  url("./assets/Images/large/Promyacin\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.homewindowModalBottompic1{
+  background-image:  url("./assets/Images/large/Grey\ Trust\ 650-min.jpg");
+  background-size: cover;
+  height: 650px;
+  width: 650px;
+}
+
+.homewindowModalBottompic2{
+  background-image:  url("./assets/Images/large/Alisa\ Invite\ 650-min.jpg");
   background-size: cover;
   height: 650px;
   width: 650px;
@@ -619,8 +684,6 @@ button {
 }
 
 .homeWindow1pic{
-
-  background-image:  url("./assets/Images/large/large-logo.png");
   background-size: cover;
   height: 650px;
   width: 650px;

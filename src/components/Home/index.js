@@ -39,7 +39,7 @@ return (
 
         <div className="Projectw1">
             <div className="flexrow">
-                <div id="port1" className="homewindowtop"  onClick={handleShow1}>window1</div>
+                <div id="port1" className="homewindowtop1"  onClick={handleShow1}></div>
                 
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
@@ -56,7 +56,7 @@ return (
                   </div>
                 </Modal>
 
-                <div className="homewindowtop" onClick={handleShow2}>window2</div>
+                <div className="homewindowtop2" onClick={handleShow2}></div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show2}
@@ -64,7 +64,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className="homeWindowModalPic2"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose2}>
                     Close
@@ -72,7 +72,7 @@ return (
                   </div>
                 </Modal>
 
-                <div className="homewindowtop" onClick={handleShow3}>window3</div>
+                <div className="homewindowtop3" onClick={handleShow3}></div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show3}
@@ -80,7 +80,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className="homeWindowModalPic3"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose3}>
                     Close
@@ -90,7 +90,7 @@ return (
             </div>
             <div className="flexrow">
 
-                <div className="homewindow" onClick={handleShow4}>window1</div>
+                <div className="homewindowbottom1" onClick={handleShow4}></div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show4}
@@ -98,7 +98,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className="homewindowModalBottompic1"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose4}>
                     Close
@@ -106,7 +106,7 @@ return (
                   </div>
                 </Modal>
 
-                <div className="homewindow" onClick={handleShow5}>window2</div>
+                <div className="homewindowbottom2" onClick={handleShow5}></div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show5}
@@ -114,7 +114,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className="homewindowModalBottompic2"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose5}>
                     Close
@@ -122,7 +122,7 @@ return (
                   </div>
                 </Modal>
 
-                <div className="homewindow" onClick={handleShow6}>window3</div>
+                <div className="" onClick={handleShow6}>window3</div>
                 <Modal className =" .modal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show6}
@@ -130,7 +130,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindow1pic"></div>
+                 <div className=""></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose6}>
                     Close
