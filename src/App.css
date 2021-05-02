@@ -72,8 +72,8 @@
   .katieicon{
     background-image: url("../src/assets/Images/300\ px\ Logo.png");
     background-size: cover;
-    height:300px;
-    width: 300px;
+    height: 285px;
+    width: 250px;
     margin-bottom: 50px;
     margin-top: 50px;
   }
