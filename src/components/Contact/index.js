@@ -39,7 +39,7 @@ return(
   <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
   <div className="contactText">Email: katie@alusadesign.com</div>
   <div className="contactText">Phone: 801-822-9690</div>
-  <div className="contactText">Or message me through the social media outlets below!</div>
+  
 
   </div>
 )

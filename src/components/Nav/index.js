@@ -5,10 +5,6 @@ function Nav({currentPage, handlepageChange}) {
     const tabs =[ 'Home', 'Portfolio', 'About',  'Contact']
     return(
         
-
-
-            
-
             <nav>
 
                 <div className="katieicon"></div>
