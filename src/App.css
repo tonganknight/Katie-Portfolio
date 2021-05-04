@@ -850,8 +850,6 @@ margin-top: 39px;
   
 }
 
-
-
 .projecttitle{
   color: black;
   font-weight: bold;
@@ -3189,6 +3187,12 @@ button {
 
 @media  screen and (max-width: 405px) {  
 
+.katieicon{
+  background-image: url("../src/assets/Images/Small/alusa\ design\ 50\ px\ logo.png");
+  height: 150px;
+  width: 132px;
+}
+
   .homewindowtop1{
     margin-top: 75px;
     margin-left: 100px;
@@ -3444,6 +3448,7 @@ button {
 
 .contactText{
   font-size: 20px;
+  margin-right: 75px;
 }
 
 }
