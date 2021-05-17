@@ -20,8 +20,6 @@ All work is owned and copyrighted by Alusadesign.com
 
 ## Features
 
-undefined
-
 ## Testing 
 
 This site requires no testing. Please visit at www.alusadesign.com
