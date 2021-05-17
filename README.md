@@ -24,7 +24,7 @@ undefined
 
 ## Testing 
 
-This site requires no testing. Please visit at alusadesign.com
+This site requires no testing. Please visit at www.alusadesign.com
 
 ## Credits
 
