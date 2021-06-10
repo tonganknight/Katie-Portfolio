@@ -41,7 +41,7 @@ return (
             <div className="flexrow">
                 <div id="port1" className="homewindowtop1"  onClick={handleShow1}></div>
                 
-                <Modal className =" .modal-content modal-body-flex  border-dark"
+                <Modal className =" .modal-content modal-body-flex border-dark"
                   size="lg"
                   show={show1}
                   onHide={handleClose1}
