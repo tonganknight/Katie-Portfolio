@@ -477,6 +477,22 @@ width: 100%;
   margin-bottom: 100px;
 }
 
+
+.Projectw2{
+  flex-direction: column;
+  justify-content: none;
+  width: 100%;
+  height: 1000px;
+  align-items: center;
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+
+
 .portfolioTitle{
 margin-top: 39px;
 }
@@ -1460,6 +1476,17 @@ width: 100%;
   margin-right: 50px;
 }
 
+.Projectw2{
+  flex-direction: column;
+  width: 100%;
+  height: 1200px;
+  align-items: center;
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
 .portfolioTitle{
 margin-top: 39px;
 }
@@ -2433,6 +2460,20 @@ width: 100%;
   overflow-y: scroll ;
   margin-right: 50px;
 }
+
+.Projectw2{
+  flex-direction: column;
+  width: 100%;
+  height: 1200px;
+  align-items: center;
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+
+
 
 .portfolioTitle{
 margin-top: 39px;
@@ -3446,4 +3487,159 @@ button {
   font-size: 20px;
 }
 
+}
+
+/* Small Down */
+.smheader{
+  flex-direction: row;
+}
+
+/*shifts flex box to colum letting icon and menu sit side by side*/
+
+.Navrow{
+  background-color: white;
+  position: fixed;
+  display: flex;
+  direction: row;
+  padding-right: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 16.5%;
+}
+
+/*reformats icon for mobile*/
+
+.smKatieicon{
+  background-color: #f5ca40;
+  margin-top: 10px;
+  height: 75px;
+  width: 200px;
+  
+}
+
+
+.dropdown{
+  margin-right: 5px; 
+  margin-left: 2px;
+  margin-top: 15px !important;
+  height: 50px !important;
+  width: 60px !important;
+}
+
+/* targets hight width and background for button on nav */
+#bg-nested-dropdown{
+  height: 50px !important;
+  width: 60px !important;
+  border: transparent;
+ background-image: url("https://pics.freeicons.io/uploads/icons/png/15211315791553239378-512.png") !important;
+ background-size: cover !important;
+
+}
+/* overrides btn primary for menu*/
+
+.btn-primary{
+  background-color: white !important;
+  border-color: white!important;
+  text-decoration: none;
+}
+
+/*Overrides menu for focus from react-boostrap*/
+
+.btn-primary:focus{
+  background-color: var(--secondary-color) !important;
+  border-color: var(--icon-color) !important;
+}
+
+
+.smhomewindowtop1{
+  margin-top: 100px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Wolf\ Hat\ Final\ 400-min.jpg");
+}
+.smhomewindowtop2{
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Just\ Peachy\ 400-min.jpg");
+
+}
+
+.smportback {
+  height: 100%;
+  width: 100%;
+}
+
+.smProjectw1 {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 25px;
+  overflow-y: scroll;
+  margin-right: 50px;
+}
+
+.smProjectw2{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: var(--primary-color);
+  text-align: left;
+  overflow-y: scroll;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+
+.smflexrow {
+  height: 2400px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smhomewindowtop3{
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Walter\ Mockup\ 400-min.jpg");
+}
+
+.smhomewindowbottom1{
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Grey\ Trust\ 400-min.jpg");
+}
+
+.smhomewindowbottom2{
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Alisa\ Invite\ 400-min.jpg");
+}
+
+.smhomewindowbottom3{
+  height: 250px;
+  width: 250px;
+  margin-bottom: 59px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Promyacin\ 400-min.jpg");
+}
+
+
+
+.smiconflex{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 70px;
 }

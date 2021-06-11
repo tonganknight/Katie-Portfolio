@@ -4,6 +4,7 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Nav from '../Nav';
 import Home from '../Home';
+import  { Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 
 function Renderlive() {
     const [currentPage, handlepageChange] = useState('Home');
@@ -25,11 +26,28 @@ function Renderlive() {
 
     return ( 
 
+    <div>
+
+        <Breakpoint large up>
+
             <div className="  header col-sm">
            <Nav currentPage={currentPage} handlepageChange={handlepageChange} />
             <div className=" col-sm">{renderPage(currentPage)}</div>
-            
             </div>
+        </Breakpoint>
+
+        <Breakpoint small down>
+
+        <div className="smheader">
+           <Nav currentPage={currentPage} handlepageChange={handlepageChange} />
+            <div className="">{renderPage(currentPage)}</div>
+            </div>
+        </Breakpoint>
+
+
+
+</div>
+
     )
 }
 

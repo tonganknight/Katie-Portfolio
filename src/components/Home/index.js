@@ -1,5 +1,8 @@
 import React, {Component, useEffect, useState} from 'react';
 import { Button, Modal, Card, Image } from 'react-bootstrap';
+import  { Breakpoint, small, large, up, down } from 'react-socks';
+import Footer from '../Footer';
+
 
 
 function Home() {
@@ -33,11 +36,15 @@ const handleShow6 = () => setShow6(true);
 
 return (
 
+  <div>
+
+   
+
+  <Breakpoint large up>
 
 
 <div className="portback">
-
-        <div className="Projectw1">
+        <div className="Projectw2">
             <div className="flexrow">
                 <div id="port1" className="homewindowtop1"  onClick={handleShow1}></div>
                 
@@ -143,6 +150,129 @@ return (
 
            
         </div>
+
+    </Breakpoint>
+
+    <Breakpoint small down>
+    <div className="portback">
+        <div className="smProjectw2">
+            <div className="smflexrow">
+                <div id="port1" className="smhomewindowtop1"  onClick={handleShow1}></div>
+                
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show1}
+                  onHide={handleClose1}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homeWindowModalPic1"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose1}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+
+                <div className="smhomewindowtop2" onClick={handleShow2}></div>
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show2}
+                  onHide={handleClose2}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homeWindowModalPic2"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose2}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+
+                <div className="smhomewindowtop3" onClick={handleShow3}></div>
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show3}
+                  onHide={handleClose3}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homeWindowModalPic3"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose3}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+       
+                <div className="smhomewindowbottom1" onClick={handleShow4}></div>
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show4}
+                  onHide={handleClose4}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homewindowModalBottompic1"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose4}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+                  
+
+
+                <div className="smhomewindowbottom2" onClick={handleShow5}></div>
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show5}
+                  onHide={handleClose5}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homewindowModalBottompic2"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose5}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+
+                <div className="smhomewindowbottom3" onClick={handleShow6}></div>
+                <Modal className =" .modal-content modal-body-flex  border-dark"
+                  size="lg"
+                  show={show6}
+                  onHide={handleClose6}
+                  aria-labelledby="example-modal-sizes-title-lg">
+                  <div className="custom-modal bg-light" size="lg">
+                 <div className="homeWindow1picflex">
+                 <div className="homewindowModalBottompic3"></div>
+                 </div>
+                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose6}>
+                    Close
+                  </Button>
+                  </div>
+                </Modal>
+
+                <div className="smiconflex">
+                    <a  target="blank" href="https://www.facebook.com/katelynn.empey" className="iconFacebook"></a>
+                    <a  target="blank" href="https://www.instagram.com/alusadesign" className="iconInstagram"></a>
+                    <a  target="blank" href="https://www.linkedin.com/in/katelynn-empey-76b6ab4b/" className="iconLink"></a>
+                    <a  target="blank" href="https://www.behance.net/KatieAlusa?tracking_source=search_users_recommended%7CKatie%20alusa" className="iconBehance"></a>
+        </div>
+            </div>
+
+  </div>
+</div>
+           
+
+  
+    </Breakpoint>
+
+
+  </div>
 )
 
 }
