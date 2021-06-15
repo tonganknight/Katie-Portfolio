@@ -159,16 +159,21 @@ return (
             <div className="smflexrow">
                 <div id="port1" className="smhomewindowtop1"  onClick={handleShow1}></div>
                 
-                <Modal className =" .modal-content modal-body-flex  border-dark"
+                <Modal className =" smmodal-content modal-body-flex  border-dark"
                   size="lg"
                   show={show1}
                   onHide={handleClose1}
                   aria-labelledby="example-modal-sizes-title-lg">
-                  <div className="custom-modal bg-light" size="lg">
-                 <div className="homeWindow1picflex">
-                 <div className="homeWindowModalPic1"></div>
+                  
+                  <div className=" smcustom-modal bg-light" size="lg">
+                     <div className="smfontflex">Title: Wolf Logo Het</div>
+                 <div className="smhomeWindow1picflex">
+                 <div className="smhomeWindowModalPic1"></div>
                  </div>
-                  <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose1}>
+                 <div className="smfontdescriptionflex">
+                   Description: I made this hat. Me I did it it! its mine. I also made this text 
+                   because if you want to be an MC you have to study the skill.</div>
+                  <Button  className=" border-dark smmodalbutton"variant="secondary" onClick={handleClose1}>
                     Close
                   </Button>
                   </div>
@@ -182,7 +187,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindowModalPic2"></div>
+                 <div className="smhomeWindowModalPic2"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose2}>
                     Close
@@ -198,7 +203,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homeWindowModalPic3"></div>
+                 <div className="smhomeWindowModalPic3"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose3}>
                     Close
@@ -214,7 +219,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homewindowModalBottompic1"></div>
+                 <div className="smhomewindowModalBottompic1"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose4}>
                     Close
@@ -232,7 +237,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homewindowModalBottompic2"></div>
+                 <div className="smhomewindowModalBottompic2"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose5}>
                     Close

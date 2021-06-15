@@ -82,7 +82,8 @@
   }
 
   nav{
-    width: 20%;
+    width: 100%;
+    margin-left: 150px;
     }
 
 .iconflex{
@@ -358,7 +359,6 @@ ul{
 .iconflex{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 /* controls the list items on the resume section*/
@@ -489,6 +489,7 @@ width: 100%;
   font-size: 25px;
   margin-right: 50px;
   margin-bottom: 100px;
+  overflow-y: scroll;
 }
 
 
@@ -1366,7 +1367,7 @@ ul{
 .iconflex{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
 }
 
 /* controls the list items on the resume section*/
@@ -2351,7 +2352,6 @@ ul{
 .iconflex{
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 /* controls the list items on the resume section*/
@@ -3512,6 +3512,7 @@ button {
 .smKatieicon{
   background-color: #f5ca40;
   margin-top: 10px;
+  margin-left: 10px;
   height: 75px;
   width: 200px;
   
@@ -3550,6 +3551,8 @@ button {
   border-color: var(--icon-color) !important;
 }
 
+/* controls the images position for anything below 575px*/
+
 
 .smhomewindowtop1{
   margin-top: 100px;
@@ -3565,6 +3568,8 @@ button {
   background-image: url("./assets/Images/Medium/Just\ Peachy\ 400-min.jpg");
 
 }
+
+
 
 .smportback {
   height: 100%;
@@ -3628,12 +3633,10 @@ button {
 .smhomewindowbottom3{
   height: 250px;
   width: 250px;
-  margin-bottom: 59px;
+  margin-bottom: 25px;
   background-size: cover;
   background-image: url("./assets/Images/Medium/Promyacin\ 400-min.jpg");
 }
-
-
 
 .smiconflex{
   display: flex;
@@ -3643,3 +3646,386 @@ button {
   margin-left: 20%;
   margin-right: 70px;
 }
+
+/* end of home page images for small 574px and below*/
+
+.smmodal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0px !important;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+/* Modals 574px and below*/
+
+.smhomeWindowModalPic1{
+  background-image:  url("./assets/Images/large/Wolf\ Hat\ Final\ 650-min.jpg");
+  background-size: cover;
+  height: 259px;
+  width: 230px;
+}
+
+.smhomeWindowModalPic2{
+  height: 250px;
+  width: 230px;
+  background-size: cover;
+  background-image: url("./assets/Images/Medium/Just\ Peachy\ 400-min.jpg");
+
+}
+
+.smhomeWindowModalPic3{
+  background-image:  url("./assets/Images/large/Walter\ Spread\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smhomewindowModalBottompic1{
+  background-image:  url("./assets/Images/large/Grey\ Trust\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smhomewindowModalBottompic2{
+  background-image:  url("./assets/Images/large/Alisa\ Invite\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.homewindowModalBottompic3{
+  background-image:  url("./assets/Images/large/Promyacin\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+
+
+.smfontflex{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-family: 'Caveat', cursive;
+}
+
+.smfontdescriptionflex{
+
+  text-align: center;
+  width: 80%;
+  font-size: 19px;
+  font-family: 'Caveat', cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.smhomeWindow1picflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.smcustom-modal{
+  width: 100% !important;
+}
+
+.smmodalbutton{
+    margin-left: 37%;
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+    border: none !important;
+    margin-bottom: 15px;
+}
+
+/* end of home modals for 575px and below*/
+
+/*Portfolio Page*/
+
+.smflexrowport {
+  height: 4860px; /* controls the mobile scroll height on anything below 575px */
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.smportWindowTop1{ 
+  margin-top: 75px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Magazine\ 350\ px-min.jpg");
+}
+
+.smportWindowTop2{ 
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Purple\ Otter\ 350-min.jpg");
+}
+
+.smportWindowTop3{ 
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Art\ Show\ Invite\ 350-min.jpg");
+}
+
+.smportWindowTop4{ 
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Playing\ Cards\ 350\ px-min.jpg");
+}
+
+.smportWindow4{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Wrangler\ Tote\ 350\ px-min.jpg");
+}
+
+.smportWindow5{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/Hershey\ mug\ 350-min.jpg");
+}
+
+.smportWindow6{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/wrx\ mockup\ 350-min.jpg");
+}
+
+.smportWindow7{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-image: url("./assets/Images/Small/My\ Wedding\ Invite\ Mockup\ 350-min.jpg");
+}
+
+.smportWindow8{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Scar\ Cup\ 650\ px-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow9{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Savanna\ wedding\ Invite\ Mockup\ 350-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow10{
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Dont\ fly\ low\ 350\ px-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow11{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Nutcracker\ Mug\ 350\ px-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow12{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Paper\ Cut\ Deer\ 350-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow13{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Master\ of\ the\ elements\ 350.jpg");
+  background-size: cover;
+
+}
+
+.smportWindow15{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Sheep\ 350-min.jpg");
+  background-size: cover;
+}
+
+.smportWindow16{
+  height: 250px;
+  width: 250px;
+  background-image: url("./assets/Images/Small/Girlstyle\ 350-min.jpg");
+  background-size: cover;
+}
+
+/* end of mobile view for portfolio 575px and below*/
+
+/* modal for mobile on portfolio 575px and below */
+
+.smportModal1{
+  background-image: url("./assets/Images/large/Magazine\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal2{
+  background-image: url("./assets/Images/large/Purple\ Otter\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal3{
+  background-image: url("./assets/Images/large/Art\ Show\ Invite\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal4{
+  background-image: url("./assets/Images/large/Playing\ Cards\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal5{
+  background-image: url("./assets/Images/large/Wrangler\ Tote\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal6{
+  background-image: url("./assets/Images/large/Hershey\ mug\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal7{
+  background-image: url("./assets/Images/large/wrx\ mockup\ 650\ copy-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal8{
+  background-image: url("./assets/Images/large/My\ Wedding\ Invite\ Mockup\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal9{
+  background-image: url("./assets/Images/large/Scar\ Cup\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal10{
+  background-image: url("./assets/Images/large/Savanna\ wedding\ Invite\ Mockup\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal11{
+  background-image: url("./assets/Images/large/Don\'t\ Fly\ Low\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal12{
+  background-image: url("./assets/Images/large/Nutcracker\ Mug\ 650\ px-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal14{
+  background-image: url("./assets/Images/large/Master\ of\ the\ elements\ 650.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal15{
+  background-image: url("./assets/Images/large/Sheep\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+.smportModal16{
+  background-image: url("./assets/Images/large/Girlstyle\ 650-min.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 230px;
+}
+
+/* End of Modal section */
+
+/* About me section for 575px and under mobile*/
+
+.smaboutmetextflex{
+  color: var(--primary-color);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  margin: 20px;
+
+}
+
+.smProjectw1 {
+  flex-direction: column;
+  width: 100%;
+  height: 575px;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 25px;
+  overflow-y: scroll;
+  margin-right: 50px;
+}
+
+.smmypic {
+  margin-top: 120px;
+  margin-left: 100px;
+  height: 125px;
+  width: 125px;
+  background-image: url("./assets/Images/Small/Website\ Photo-min.png");
+  background-size: cover;
+  }
