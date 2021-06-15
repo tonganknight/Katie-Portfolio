@@ -1,14 +1,15 @@
 import './App.css';
 import Renderlive from './components/Renderlive';
+import {BreakpointProvider} from 'react-socks'
 
 
 function App() {
   return (
-    <div className=" bigbox ">
-  <div className="row"> 
+    <BreakpointProvider>
+ 
       <Renderlive/>
-    </div>
-</div>
+
+</BreakpointProvider>
   );
 }
 
