@@ -50,9 +50,11 @@ function About() {
 <div className="smProjectw1">
 
 
-
+<div clasName="smpicflex">
 
 <div className="smmypic"></div>
+
+</div>
 
 <div className="smaboutmetextflex">
 <div>Hello,</div> <div className="break"> My name is Katie Alusa and I am a Graphic Designer. 
