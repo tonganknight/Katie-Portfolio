@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import  { Breakpoint, small, large, up, down } from 'react-socks';
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -35,6 +36,10 @@ function Contact() {
       
       console.log(formState);
 return(
+
+<div>
+
+  <Breakpoint large up>
   <div className="contactback">
   <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
   <div className="contactText">Email: katie@alusadesign.com</div>
@@ -42,6 +47,21 @@ return(
   
 
   </div>
+  </Breakpoint>
+
+  <Breakpoint small down>
+
+  <div className="smcontactback">
+  <div className="contactTitle"><strong>Feel free to reach out to me!</strong></div> 
+  <div className="smcontactText">Email: katie@alusadesign.com</div>
+  <div className="smcontactText">Phone: 801-822-9690</div>
+  
+
+  </div>
+
+  </Breakpoint>
+
+</div>
 )
 }
 export default Contact;
