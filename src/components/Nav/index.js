@@ -4,12 +4,10 @@ import { ButtonGroup, DropdownButton, Dropdown,  } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}) {
     
-    const tabs =[ 'Home', 'Portfolio', 'About',  'Contact']
+    const tabs =[ 'Home', 'Portfolio', 'About', 'Rates', 'Contact']
     return(
         <div>
 
-
-        
         <Breakpoint large up>
             <nav>
 
@@ -35,8 +33,6 @@ function Nav({currentPage, handlepageChange}) {
 
  <Breakpoint small down>
 
-
-
         <nav class="Navrow">
 
         <div className="smKatieicon"></div>
@@ -58,9 +54,6 @@ function Nav({currentPage, handlepageChange}) {
 
         </Breakpoint>
 
-
-        
-       
 </div>
     )
 }

@@ -4,6 +4,7 @@ import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Nav from '../Nav';
 import Home from '../Home';
+import Rates from "../Rates";
 import  { Breakpoint, setDefaultBreakpoints, up, down } from 'react-socks';
 
 function Renderlive() {
@@ -17,6 +18,8 @@ function Renderlive() {
                 return <Portfolio />;
             case 'About':
                 return <About />;
+            case "Rates":
+                return <Rates />;
             case 'Contact':
                 return <Contact />;
             default: 
