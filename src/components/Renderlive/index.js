@@ -18,8 +18,6 @@ function Renderlive() {
                 return <Portfolio />;
             case 'About':
                 return <About />;
-            case "Rates":
-                return <Rates />;
             case 'Contact':
                 return <Contact />;
             default: 

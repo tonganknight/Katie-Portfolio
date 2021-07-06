@@ -66,29 +66,40 @@ const handleShow3 = () => setShow3(true);
 
                 <div className="phaselogosFlex">
                     <ul className="fullLogoPackagePhase">Phase 1</ul>
-                        <li className="basicLiModal">8 Custom Logo Choices</li>
-                        <li className="basicLiModal">Blah blah blah</li>
-                        <li className="basicLiModal"> Blah Blah blah</li>
-                        <li className="basicLiModal">more Blah</li>
+                        <li className="basicLiModal">Consultation</li>
+                        <li className="basicLiModal">4 Concept Sketches</li>
+ 
                 </div>
 
                 <div className="phaselogosFlex">
                     <ul className="fullLogoPackagePhase">Phase 2</ul>
-                        <li className="basicLiModal">2 revisions</li>
-                        <li className="basicLiModal">Blah blah blah</li>
-                        <li className="basicLiModal"> Blah Blah blah</li>
-                        <li className="basicLiModal">more Blah</li>
+                        <li className="basicLiModal">1-2 Concept Edits</li>
+                        <li className="basicLiModalBold smallernote">* Additional edits may increase price</li>
+
+                        
                 </div>
 
                 <div className="phaselogosFlex">
                     <ul className="fullLogoPackagePhase">Phase 3</ul>
-                        <li className="basicLiModal">what ever last changes</li>
-                        <li className="basicLiModal">Blah blah blah</li>
-                        <li className="basicLiModal"> Blah Blah blah</li>
-                        <li className="basicLiModal">more Blah</li>
+                        <li className="basicLiModal">Minor Edits to Finalize Logo</li>
+                        <li className="basicLiModal">Finalized Logo</li>
+                        <li className="basicLiModal">Full Color (1 Color, Black, White)</li>
                 </div>
 
+                
+
+
             </div>
+
+                    <div className="phaseLogoFilesFlex">
+                    <ul className="fullLogoPackagePhase">Logo Files</ul>
+                        <li className="basicLiModal">.Ai</li>
+                        <li className="basicLiModal">.EPS</li>
+                        <li className="basicLiModal">.JPEG</li>
+                        <li className="basicLiModal">.PNG</li>    
+                </div>
+
+
 
             <div className="fullLogoPackageBreakdownFlex"> 
                     <div className="price">$000</div>
@@ -106,7 +117,7 @@ const handleShow3 = () => setShow3(true);
     </div>
 
                 <div className="logoBlockholder">
-                    <div className="logoTitle"> Branding</div>
+                    <div className="BrandingTitle"> Branding</div>
                 </div>
 
                 <div className="BasicPackageLogoflex">
@@ -185,7 +196,7 @@ const handleShow3 = () => setShow3(true);
                     <li className="basicLiModal">Leader Heads</li>
                     <li className="basicLiModal">T-shirt Design</li>
                     <li className="basicLiModal">Car Vinyl</li>
-                    <li className="basicLiModal">Stuff</li>
+                    <li className="basicLiModal">Hat Design</li>
             </div>
 
             
@@ -204,7 +215,7 @@ const handleShow3 = () => setShow3(true);
             </div>
             </Modal>
 
-            <div className="fullPackageLogoTitle">Branding Package Addons</div>
+            <div className="fullPackageLogoTitle">Branding Package +</div>
 
             </div>
 

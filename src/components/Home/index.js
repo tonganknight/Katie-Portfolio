@@ -166,13 +166,12 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   
                   <div className=" smcustom-modal bg-light" size="lg">
-                     <div className="smfontflex">Title: Wolf Logo Het</div>
+                     <div className="smfontflex"></div>
                  <div className="smhomeWindow1picflex">
                  <div className="smhomeWindowModalPic1"></div>
                  </div>
                  <div className="smfontdescriptionflex">
-                   Description: I made this hat. Me I did it it! its mine. I also made this text 
-                   because if you want to be an MC you have to study the skill.</div>
+                  </div>
                   <Button  className=" border-dark smmodalbutton"variant="secondary" onClick={handleClose1}>
                     Close
                   </Button>
