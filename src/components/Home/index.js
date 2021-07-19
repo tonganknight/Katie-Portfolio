@@ -44,7 +44,7 @@ return (
 
 
 <div className="portback">
-        <div className="Projectw2">
+        <div className="HomeProjectw2">
             <div className="flexrow">
                 <div id="port1" className="homewindowtop1"  onClick={handleShow1}></div>
                 
@@ -252,7 +252,7 @@ return (
                   aria-labelledby="example-modal-sizes-title-lg">
                   <div className="custom-modal bg-light" size="lg">
                  <div className="homeWindow1picflex">
-                 <div className="homewindowModalBottompic3"></div>
+                 <div className="smhomewindowModalBottompic3"></div>
                  </div>
                   <Button  className=" border-dark modalbutton"variant="secondary" onClick={handleClose6}>
                     Close

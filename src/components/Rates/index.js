@@ -47,6 +47,8 @@ const handleShow3 = () => setShow3(true);
                     <div className="logoTitle">Logos</div>
                 </div>
 
+                <div className="largeRatesintro">Great for...</div>
+
                 <div className="fullPackageLogoflex">
 
                 <div className="fullPackageLogoImage" onClick={handleShow1}></div>
@@ -119,6 +121,8 @@ const handleShow3 = () => setShow3(true);
                 <div className="logoBlockholder">
                     <div className="BrandingTitle"> Branding</div>
                 </div>
+
+                <div className="largeRatesintro">Great for...</div>
 
                 <div className="BasicPackageLogoflex">
 
