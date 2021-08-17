@@ -33,7 +33,7 @@ function Nav({currentPage, handlepageChange}) {
 
  <Breakpoint small down>
 
-        <nav class="Navrow">
+        <nav className="Navrow">
 
         <div className="smKatieicon"></div>
 
